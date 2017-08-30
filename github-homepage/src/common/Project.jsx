@@ -57,13 +57,13 @@ const projectData = {
   mareysTrains: {
     link: 'https://phinch.github.io/mareys-trains',
     title: `Marey's Trains`,
-    img: '../assets/mareys-trains.png',
+    img: './assets/mareys-trains.png',
     subtitle: 'spring 2016.',
   },
   rottenPotatoes: {
     link: 'https://github.com/phinch/Rotten-Potatoes',
     title: 'Rotten Potatoes',
-    img: '../assets/rotten-potatoes.png',
+    img: './assets/rotten-potatoes.png',
     subtitle: 'spring 2016.',
   },
 };
