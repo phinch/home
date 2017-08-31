@@ -16,7 +16,6 @@ export default class Header extends Component {
       <div>
         <h1 className={css(styles.title)}>Philip Hinch</h1>
         <h2 className={css(styles.subtitle)}>projects.</h2>
-        <hr />
       </div>
     );
   }
