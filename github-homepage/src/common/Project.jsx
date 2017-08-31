@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
       height: 250,
     },
   },
+  link: {
+    color: '#EBFAFF',
+  },
   title: {
     paddingTop: 25,
     paddingLeft: 25,
@@ -72,15 +75,13 @@ export default class Project extends Component {
   render() {
     const { type } = this.props;
     return (
-      <div className={css(styles.Project)} onClick={this.handleClick(type)}>
-        <h2 className={css(styles.title)}>{projectData[type].title}</h2>
-        <h3 className={css(styles.subtitle)}>{projectData[type].subtitle}</h3>
-        <img className={css(styles.image)} src={projectData[type].img} alt={projectData[type].title}/>
+      <div className={css(styles.Project)}>
+        <a className={css(styles.link)} href={projectData[type].link}>
+          <h2 className={css(styles.title)}>{projectData[type].title}</h2>
+          <h3 className={css(styles.subtitle)}>{projectData[type].subtitle}</h3>
+          <img className={css(styles.image)} src={projectData[type].img} alt={projectData[type].title}/>
+        </a>
       </div>
     );
-  }
-
-  handleClick(type) {
-    return () => window.location.replace(projectData[type].link);
   }
 }
