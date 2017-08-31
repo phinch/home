@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200');
 
 .appWrapper {
   padding: 150px;
+  padding-top: 50px;
   font-family: 'Raleway', sans-serif;
-  background: #051B2C;
+  font-weight: 100;
+  background: #031019;
   color: #EBFAFF;
 }
