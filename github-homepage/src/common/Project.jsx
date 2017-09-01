@@ -69,6 +69,12 @@ const projectData = {
     img: './assets/rotten-potatoes.png',
     subtitle: 'spring 2016.',
   },
+  rewind: {
+    link: 'http://rewind.cs.brown.edu/',
+    title: 'Rewind',
+    img: './assets/rewind.png',
+    subtitle: 'ongoing',
+  }
 };
 
 export default class Project extends Component {

@@ -8,6 +8,7 @@ class App extends Component {
       <div className="appWrapper">
         <Header />
         <Project type="newYorkTaxis" />
+        <Project type="rewind" />
         <Project type="rottenPotatoes" />
         <Project type="wimbledon" />
         <Project type="mareysTrains" />
