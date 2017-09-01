@@ -7,10 +7,10 @@ class App extends Component {
     return (
       <div className="appWrapper">
         <Header />
-        <Project type="wimbledon" />
         <Project type="newYorkTaxis" />
-        <Project type="mareysTrains" />
         <Project type="rottenPotatoes" />
+        <Project type="wimbledon" />
+        <Project type="mareysTrains" />
       </div>
     );
   }
